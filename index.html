@@ -8,6 +8,7 @@
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
+        
         <!-- Add of the hearder -->
         <div class="header">
             <!-- Add of the lefts header -->
@@ -25,9 +26,23 @@
                 </ul>        
             </div>
         </div>
-        <form action="https://www.google.com/search">
-            <input type="text" name="q">
-            <input type="submit" value="Google Search">
-        </form>
+        
+        <!-- Creation of the middle part -->
+        <div class="middle-part">
+            <div class="logo">
+                <img src="./images/logo_google.png" alt="Google's logo">
+            </div>
+            <div class="research-section">        
+                <form action="https://www.google.com/search">
+                    <div class="research-container">
+                        <input class="input-research-bar" type="text" name="q">
+                        <div class="buttons-for-research">
+                            <input class="normal-research" type="submit" value="Google Search">
+                            <input class="lucky" type="submit" value="I'm Feeling Lucky">
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
     </body>
 </html>
