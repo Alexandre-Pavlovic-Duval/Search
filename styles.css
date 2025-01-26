@@ -1,0 +1,58 @@
+.header {
+    border: 5px solid rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-top-left {
+    border: 5px solid green;
+    display: flex;
+    flex-grow: 1;
+}
+
+.top-left {
+    border: 5px solid rgb(83, 83, 214);
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-grow: 1;
+    padding: 0px;
+    margin: 0px;
+    gap: 20px;
+}
+
+.About {
+    border: 5px solid coral;
+    list-style: none;
+}
+
+.GoogleStore {
+    border: 5px solid sienna;
+    list-style: none;
+}
+
+.header-top-right {
+    border: 5px solid orange;
+    display: flex;
+    flex-grow: 1;
+}
+
+.top-right {
+    border: 5px solid gray;
+    display: flex;
+    flex-grow: 1;
+    justify-content: flex-end;
+    margin: 0px;
+    padding: 0px;
+    gap: 20px;
+}
+
+.images {
+    border: 5px solid teal;
+    list-style: none;
+}
+
+.advancedResearch {
+    border: 5px solid rgb(133, 68, 133);
+    list-style: none;
+}
