@@ -1,4 +1,4 @@
-/* Making 3 distincts parts (header, middle, bottom) */
+/* Making 2 distincts parts (middle and bottom) */
 
 .separation {
     display: flex;
@@ -7,66 +7,12 @@
     height: 100vh;
 }
 
-/* Header style */
-.header {
-    display: flex;
-    justify-content: space-between;
-}
-
-.header-top-left {
-    display: flex;
-    flex-grow: 1;
-}
-
-.top-left {
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    flex-grow: 1;
-    padding: 0px;
-    margin: 0px;
-    gap: 20px;
-}
-
-.About {
-    list-style: none;
-}
-
-.GoogleStore {
-    list-style: none;
-}
-
-.header-top-right {
-    display: flex;
-    flex-grow: 1;
-}
-
-.top-right {
-    display: flex;
-    flex-grow: 1;
-    justify-content: flex-end;
-    margin: 0px;
-    padding: 0px;
-    gap: 20px;
-}
-
-a {
-    text-decoration: none;
-    color: blue;
-}
-.images {
-    list-style: none;
-}
-
-.advancedResearch {
-    list-style: none;
-}
-
-
 /* Middle style */
 .middle-part {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    flex-grow: 1;
 }
 
 .logo {
@@ -107,17 +53,12 @@ a {
     justify-content: center;
 }
 
-.first-bottom {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 15px;
-}
-
 .align-second-bottom {
     display: flex;
     flex-direction: row;
     justify-content: center;
     gap: 20px;
+    padding: 30px;
 }
 
 .second-bottom {
