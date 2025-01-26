@@ -21,6 +21,11 @@ p {
     border: 1px solid rgb(221, 213, 213);
 }
 
+.sections {
+    display: flex;
+    flex-direction: column;
+}
+
 .middle-title-one {
     font-size: 16px;
     color: #333333;
@@ -63,3 +68,17 @@ p {
     margin-left: 36px;
     margin-bottom: 15px;
 }
+
+.research {
+    display: flex;
+    justify-content: center;
+    margin-right: 397px;
+}
+
+.research-button {
+    background-color: #4D90FE;
+    border: #4D90FE;
+    padding: 7px;
+    color: white;
+}
+
