@@ -17,36 +17,39 @@
         </div>
         <!-- Add a page horitontal divider -->
         <hr class="solid">
-        <!-- First Middle Part-->
-        <div class="middle-part-one">
-            <div class="sections">
-                <div class="middle-title-one">Find pages with...</div>
-                <div class="field">
-                    <p class="criteria">all these words:</p>
-                    <div><input class="form-control" type="text"></div>
-                </div>
-                <div class="field">
-                    <p class="criteria">this exact word of phrase:</p>
-                    <div><input class="form-control" type="text"></div>
-                </div>
-                <div class="field">
-                    <p class="criteria">any of these words:</p>
-                    <div><input class="form-control" type="text"></div>
-                </div>
-                <div class="field">
-                    <p class="criteria">none of these words:</p>
-                    <div><input class="form-control" type="text"></div>
-                </div>
-                <div class="field">
-                    <p class="criteria">numbers ranging from:</p>
-                    <div><input class="form-control" type="text"></div>
-                    <p class="criteria-special">and</p>
-                    <div><input class="form-control" type="text"></div>
+
+        <form action="https://www.google.com/search" method="GET">
+            <!-- First Middle Part-->
+            <div class="middle-part-one">
+                <div class="sections">
+                    <div class="middle-title-one">Find pages with...</div>
+                    <div class="field">
+                        <p class="criteria">all these words:</p>
+                        <div><input class="form-control" type="text" name="q"></div>
+                    </div>
+                    <div class="field">
+                        <p class="criteria">this exact word of phrase:</p>
+                        <div><input class="form-control" type="text" name="as_epq"></div>
+                    </div>
+                    <div class="field">
+                        <p class="criteria">any of these words:</p>
+                        <div><input class="form-control" type="text" name="as_oq"></div>
+                    </div>
+                    <div class="field">
+                        <p class="criteria">none of these words:</p>
+                        <div><input class="form-control" type="text" name="as_eq"></div>
+                    </div>
+                    <div class="field">
+                        <p class="criteria">numbers ranging from:</p>
+                        <div><input class="form-control" type="text" name="as_nlo"></div>
+                        <p class="criteria-special">and</p>
+                        <div><input class="form-control" type="text" name="as_nhi"></div>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="research">
-            <button class="research-button">Advanced Research</button>
-        </div>
+            <div class="research">
+                <button class="research-button" type="submit" value="Advanced Research"></button>
+            </div>
+        </form>
     </body>
 </html>
