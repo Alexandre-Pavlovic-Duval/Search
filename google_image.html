@@ -8,6 +8,9 @@
     <body>
         <!-- Separation of header,  middle and bottom -->
          <div class="separation">
+            <div class="header">
+                <div class="back-to-main-page"><a href="./index.html" rel="noreferrer">Back to Google Search</a></div>
+            </div>
             <!-- Creation of the middle part -->
             <div class="middle-part">
                 <div class="logo">
@@ -16,9 +19,10 @@
                 <div class="research-section">        
                     <form action="https://www.google.com/search">
                         <div class="research-container">
-                            <input class="input-research-bar" type="text" name="q">
+                            <input class="input-research-bar" type="text" name="q" placeholder="Search for images">
                             <div class="buttons-for-research">
-                                <input class="normal-research" type="submit" value="Google Search">
+                                <input type="hidden" name="tbm" value="isch">
+                                <input class="normal-research" type="submit" value="Image Search">
                             </div>
                         </div>
                     </form>
