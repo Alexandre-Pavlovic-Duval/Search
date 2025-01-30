@@ -1,8 +1,24 @@
-/* .separation {
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-left {
     display: flex;
     flex-direction: column;
-    height: 100vh;
-} */
+} 
+
+.header-right {
+    display: flex;
+} 
+ 
+.back-main-page {
+    text-decoration: none !important;
+    font-size: 10px;
+    color: #333333;
+    font-weight: 800;
+    font-family: Arial, sans-serif;
+}
 
 .logo {
     margin-top: 20px;
